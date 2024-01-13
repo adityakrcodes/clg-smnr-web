@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     arrowUp.addEventListener("click", function () {
         window.scrollTo({
-            top: 750,
+            top: 0,
             behavior: "smooth",
         });
     });
